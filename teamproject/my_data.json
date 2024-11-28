@@ -1,0 +1,35 @@
+[
+    {
+      "name": "Bicep Curl",
+      "type": "strength",
+      "muscle": "biceps",
+      "equipment": "dumbbell",
+      "difficulty": "beginner",
+      "instructions": "Hold a dumbbell in each hand with palms facing up. Curl the dumbbells while keeping your elbows close to your torso."
+    },
+    {
+      "name": "Concentration Curl",
+      "type": "strength",
+      "muscle": "biceps",
+      "equipment": "dumbbell",
+      "difficulty": "intermediate",
+      "instructions": "Sit on a bench with your legs apart. Hold a dumbbell with one hand, lean forward, and curl the dumbbell while keeping your elbow stationary."
+    },
+    {
+      "name": "Chin-Up",
+      "type": "strength",
+      "muscle": "biceps",
+      "equipment": "body",
+      "difficulty": "advanced",
+      "instructions": "Grab a pull-up bar with palms facing you. Pull yourself up until your chin is above the bar, then slowly lower yourself back down."
+    },
+    {
+      "name": "Cable Bicep Curl",
+      "type": "strength",
+      "muscle": "biceps",
+      "equipment": "cable",
+      "difficulty": "intermediate",
+      "instructions": "Stand facing a cable machine. Hold the cable handle with an underhand grip and curl it while keeping your elbows stationary."
+    }
+  ]
+  
