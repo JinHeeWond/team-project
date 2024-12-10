@@ -11,6 +11,7 @@ const RoutinePage = ({ routine, setRoutine }) => {
     }));
   };
 
+  
   return (
     <div className="routine-page">
       <Header />
