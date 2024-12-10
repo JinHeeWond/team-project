@@ -1,0 +1,78 @@
+.routine-page {
+    font-family: "Arial", sans-serif;
+    background-color: #f9fafc;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .routine-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .routine-title {
+    text-align: center;
+    color: #5b7dff;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  .routine-days-row {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7개 요일을 한 줄에 배치 */
+    gap: 10px;
+  }
+  
+  .routine-day {
+    background-color: #f0f4ff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-height: 300px; /* 최대 높이를 제한 */
+    overflow-y: auto; /* 운동이 많아지면 스크롤 가능 */
+  }
+  
+  ul{
+    padding: 0%;
+  }
+  .routine-day h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .exercise-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exercise-item span {
+    flex: 1;
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  
+  .delete-button {
+    background-color: #ff5b5b;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  
+  .delete-button:hover {
+    background-color: #cc4949;
+  }
+  
